@@ -1,0 +1,21 @@
+h1,
+p {
+    background-color: #DDe0E3;
+}
+
+em,
+strong {
+    background-color: #B2D6FF;
+    display: inline;
+}
+
+h1 {
+    padding: 50px;
+    border: 1px solid #5D6063;
+    border-style: double;
+}
+
+p {
+    padding: 20px 0 20px 10px;
+    margin-bottom: 50px;
+}
