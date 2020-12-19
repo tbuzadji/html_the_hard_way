@@ -91,3 +91,21 @@ a:visited:active {
 .call-to-action:visited:hover {
     background-color: #F5CF8E;
 }
+
+.call-to-action:active,
+.call-to-action:active:visited {
+    background-color: #EEB75A;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+
+#button-2 {
+    color: #5D6063;
+}
