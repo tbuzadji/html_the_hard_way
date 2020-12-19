@@ -68,3 +68,26 @@ a:visited:active {
     width: 200px;
     margin: 20px auto;
 }
+
+.button:hover,
+.button:visited:hover {
+    color: #FFF;
+    background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+    color: #FFF;
+    background-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #EEB75A;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #F5CF8E;
+}
