@@ -10,7 +10,7 @@
 }
 
 .sidebar {
-    float: right;
+    float: left;
     width: 200px;
     height: 300px;
     background-color: #F09A9D;
@@ -22,6 +22,7 @@
 }
 
 .footer {
+    clear: both;
     height: 200px;
     background-color: #D6E9FE;
 }
@@ -29,6 +30,7 @@
 .page {
     width: 900px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .content {
