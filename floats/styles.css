@@ -30,7 +30,11 @@
 .page {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid red;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #EAEDF0;
 }
 
 .content {
