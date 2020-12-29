@@ -53,10 +53,30 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
 }
 
 .photo-grid-item {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+}
+
+.subscribe:hover {
+    color: rgb(17, 51, 102);
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
 }
