@@ -37,3 +37,10 @@ nav li a {
 .links :hover {
     opacity: 0.9;
 }
+
+#back {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    /* width: 60px; */
+}
