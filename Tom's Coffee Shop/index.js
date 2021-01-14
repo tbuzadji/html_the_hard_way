@@ -8,8 +8,9 @@
 
 function greet() {
     let name = document.querySelector("#name").value;
-    alert("Вы хотите сказать что вас зовут " + name + "?? Вы серьезно? Очень странное имя у вас!");
+    // alert("Вы хотите сказать что вас зовут " + name + "?? Вы серьезно? Очень странное имя у вас!");
+    console.log(name)
 }
-document.addEventListener("DOMCOntentLoaded", function() {
-    document.querySelector('form').addEventListener("submit", greet);
-});
+// document.addEventListener("DOMCOntentLoaded", function() {
+//     document.querySelector('form').addEventListener("submit", greet);
+// });
