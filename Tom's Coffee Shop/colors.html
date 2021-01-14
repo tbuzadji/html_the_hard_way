@@ -23,7 +23,7 @@
         }
     });
 </script> -->
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll('button').forEach(function(button) {
             button.onclick = function() {
@@ -31,14 +31,24 @@
             }
         });
     });
+</script> -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('select').onchange = function() {
+            document.querySelector('#hello').style.color = this.value;
+        }
+    });
 </script>
 
 <body>
     <h1 id="hello">Hello!</h1>
-    <button data-color="red">Red</button>
-    <button data-color="blue">Blue</button>
-    <button data-color="green">Green</button>
-    <button data-color="black">Default</button>
+    <select>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
 </body>
 
 </html>
